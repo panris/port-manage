@@ -23,7 +23,7 @@ public class MacPortScanner implements PortScanner {
 
     private static final Logger log = LoggerFactory.getLogger(MacPortScanner.class);
 
-    @Value("${port-manager.scan.dev-process-keywords:idea,java,tace,claude,springboot}")
+    @Value("${port-manage.scan.dev-process-keywords:idea,java,tace,claude,springboot}")
     private String devProcessKeywords;
 
     private static final Pattern PORT_PATTERN = Pattern.compile(":(\\d+)");

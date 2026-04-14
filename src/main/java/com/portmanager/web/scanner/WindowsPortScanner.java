@@ -23,7 +23,7 @@ public class WindowsPortScanner implements PortScanner {
 
     private static final Logger log = LoggerFactory.getLogger(WindowsPortScanner.class);
 
-    @Value("${port-manager.scan.dev-process-keywords:idea,java,tace,claude,springboot}")
+    @Value("${port-manage.scan.dev-process-keywords:idea,java,tace,claude,springboot}")
     private String devProcessKeywords;
 
     private static final Pattern NETSTAT_PATTERN = Pattern.compile(

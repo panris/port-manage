@@ -18,7 +18,7 @@
 
 ## 使用步骤
 
-### 方式一：通过 Port Manager 界面（推荐）
+### 方式一：通过 Port Manage 界面（推荐）
 
 1. 访问 http://localhost:9527
 2. 找到要停止的服务（如 MySQL、Redis）
@@ -100,7 +100,7 @@ DELETE /api/process/{pid}?permanent=true
 
 ## 验证服务已停止
 
-### 方法1：通过 Port Manager
+### 方法1：通过 Port Manage
 
 刷新页面，检查端口是否消失
 
@@ -169,7 +169,7 @@ tail -100 app.log | grep "ProcessManageService"
 ### 场景1：停止开发环境的 Redis
 
 ```
-1. 打开 Port Manager (http://localhost:9527)
+1. 打开 Port Manage (http://localhost:9527)
 2. 找到 Redis (端口 6379)
 3. 点击"关闭"
 4. 选择"永久停止"（默认）

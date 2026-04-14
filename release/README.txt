@@ -1,4 +1,4 @@
-# Port Manager - 端口管理工具
+# Port Manage - 端口管理工具
 
 ## 快速启动指南
 
@@ -46,7 +46,7 @@ brew install openjdk@11
 启动后会自动：
 1. 检测Java环境
 2. 检查端口占用情况
-3. 启动Port Manager应用
+3. 启动Port Manage应用
 4. 打开浏览器访问管理页面
 
 ### 停止应用
@@ -98,7 +98,7 @@ brew install openjdk@11
 
 - `PortManager.command` - Mac启动脚本
 - `PortManager.bat` - Windows启动脚本
-- `port-manager-web.jar` - 应用程序主文件
+- `port-manage-web.jar` - 应用程序主文件
 - `README.txt` - 本说明文件
 
 ---

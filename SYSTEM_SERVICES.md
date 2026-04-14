@@ -8,7 +8,7 @@
 
 ### 1. 应用已优化的自动处理
 
-最新版本的 Port Manager 已经优化了关闭进程的逻辑：
+最新版本的 Port Manage 已经优化了关闭进程的逻辑：
 
 - **自动检测**：自动识别由 launchd 管理的服务
 - **智能停止**：对于系统管理的服务，会尝试使用正确的命令停止（如 `brew services stop` 或 `launchctl stop`）
@@ -70,7 +70,7 @@ launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 
 ## 进程类型说明
 
-Port Manager 会自动识别以下进程类型：
+Port Manage 会自动识别以下进程类型：
 
 | 类型 | 说明 | 示例 |
 |------|------|------|
@@ -86,13 +86,13 @@ Port Manager 会自动识别以下进程类型：
 
 ## 最佳实践
 
-1. **开发环境服务**：可以通过 Port Manager 关闭
+1. **开发环境服务**：可以通过 Port Manage 关闭
 2. **系统管理服务**：建议使用命令行工具管理（brew services、launchctl）
 3. **重要服务**：关闭前确认是否会影响其他应用
 
 ## 技术实现
 
-Port Manager 现在会：
+Port Manage 现在会：
 
 1. 检查进程是否由 launchd 管理
 2. 如果是，尝试使用 `brew services stop` 停止 Homebrew 服务

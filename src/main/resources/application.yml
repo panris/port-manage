@@ -9,7 +9,7 @@ server:
 
 spring:
   application:
-    name: port-manager-web
+    name: port-manage-web
 
   jackson:
     time-zone: GMT+8
@@ -23,7 +23,7 @@ spring:
       static-locations: classpath:/static/
 
 # 端口扫描配置
-port-manager:
+port-manage:
   scan:
     # 扫描间隔(毫秒)
     interval: 5000

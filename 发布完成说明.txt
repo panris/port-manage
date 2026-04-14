@@ -1,12 +1,12 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
-║        Port Manager v1.0.0 - 发布包生成完成！               ║
+║        Port Manage v1.0.0 - 发布包生成完成！               ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 
 📦 发布包位置
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-/Users/panris/project/port-manager/port-manager-web/
+/Users/panris/project/port-manage/port-manage-web/
 
 
 📊 生成的文件
@@ -18,7 +18,7 @@
 2. 📁 release/ 目录
    ├─ PortManager.command      Mac启动脚本（双击运行）
    ├─ PortManager.bat          Windows启动脚本（双击运行）
-   ├─ port-manager-web.jar     应用程序主文件（19MB）
+   ├─ port-manage-web.jar     应用程序主文件（19MB）
    ├─ README.txt               详细使用说明
    ├─ 快速启动指南.md          快速上手指南
    └─ 发布说明.md              发布和分发说明
@@ -80,7 +80,7 @@
 🧪 现在测试（Mac）
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-cd /Users/panris/project/port-manager/port-manager-web/release
+cd /Users/panris/project/port-manage/port-manage-web/release
 ./PortManager.command
 
 注意: 如果端口9527已被占用，脚本会提示是否关闭
@@ -116,7 +116,7 @@ cd /Users/panris/project/port-manager/port-manager-web/release
    - 自动打开浏览器
    - 中文界面提示
 
-✅ 应用程序包 (port-manager-web.jar)
+✅ 应用程序包 (port-manage-web.jar)
    - Spring Boot 2.7.18
    - Java 11 兼容
    - 包含所有依赖
@@ -148,7 +148,7 @@ cd /Users/panris/project/port-manager/port-manager-web/release
 📞 技术支持
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-项目位置: /Users/panris/project/port-manager/port-manager-web
+项目位置: /Users/panris/project/port-manage/port-manage-web
 访问地址: http://localhost:9527
 应用端口: 9527
 
@@ -172,7 +172,7 @@ cd /Users/panris/project/port-manager/port-manager-web/release
 🎊 发布完成！
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Port Manager v1.0.0 已准备就绪，可以立即分发！
+Port Manage v1.0.0 已准备就绪，可以立即分发！
 
 用户只需：
   解压 → 双击 → 开始使用 ✨
