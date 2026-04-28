@@ -287,7 +287,7 @@ POST /api/scan
 port-manage-web/
 ├── src/
 │   ├── main/
-│   │   ├── java/com/portmanager/web/
+│   │   ├── java/com/portmanage/web/
 │   │   │   ├── controller/         # REST API控制器
 │   │   │   ├── service/            # 业务逻辑服务
 │   │   │   ├── scanner/            # 端口扫描实现
