@@ -20,7 +20,7 @@
 **1. 启动 port-manage 服务**
 ```bash
 cd /Users/panris/Projects/port-manage
-java -jar target/port-manager-web.jar
+java -jar target/port-manage-web.jar
 # 默认端口 9527
 ```
 
